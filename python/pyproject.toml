@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "profile-photo-specs"
+version = "1.0.0"
+description = "Profile picture size, format and file-size rules for LinkedIn, X, Tinder, Hinge, Slack, Teams, Zoom, GitHub, passports and more, with sources."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.9"
+authors = [{ name = "Photo Intelligence Lab by Narkis.ai" }]
+keywords = ["profile picture", "profile photo", "avatar", "image size", "linkedin", "tinder", "passport photo", "social media image sizes"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+  "Topic :: Multimedia :: Graphics",
+]
+
+[project.urls]
+Homepage = "https://narkis.ai/tools/profile-photo-resizer"
+Source = "https://github.com/photo-intelligence-lab/profile-photo-specs"
+Tools = "https://narkis.ai/tools"
+
+[tool.setuptools]
+packages = ["profile_photo_specs"]
+
+[tool.setuptools.package-data]
+profile_photo_specs = ["specs.json"]

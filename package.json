@@ -1,0 +1,55 @@
+{
+  "name": "profile-photo-specs",
+  "version": "1.0.0",
+  "description": "Profile picture size, format and file-size rules for LinkedIn, X, Instagram, Tinder, Hinge, Bumble, Slack, Teams, Zoom, GitHub, passports and more, with sources.",
+  "main": "index.js",
+  "module": "index.mjs",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "require": "./index.js"
+    },
+    "./specs.json": "./specs.json"
+  },
+  "files": [
+    "index.js",
+    "index.mjs",
+    "index.d.ts",
+    "specs.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test.js"
+  },
+  "keywords": [
+    "profile picture",
+    "profile photo",
+    "avatar",
+    "image size",
+    "linkedin",
+    "tinder",
+    "hinge",
+    "bumble",
+    "slack",
+    "teams",
+    "zoom",
+    "github",
+    "passport photo",
+    "social media image sizes",
+    "specs"
+  ],
+  "homepage": "https://narkis.ai/tools/profile-photo-resizer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/photo-intelligence-lab/profile-photo-specs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/photo-intelligence-lab/profile-photo-specs/issues"
+  },
+  "author": "Photo Intelligence Lab by Narkis.ai (https://narkis.ai)",
+  "license": "MIT",
+  "sideEffects": false
+}

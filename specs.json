@@ -1,0 +1,872 @@
+[
+  {
+    "slug": "linkedin",
+    "name": "LinkedIn",
+    "category": "professional",
+    "profilePhoto": {
+      "width": 400,
+      "height": 400,
+      "aspectRatio": "1:1",
+      "minWidth": 400,
+      "minHeight": 400,
+      "maxWidth": 7680,
+      "maxHeight": 4320,
+      "maxFileSizeMB": 8,
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "displayShape": "circle",
+      "notes": "LinkedIn accepts 400x400 up to 7680x4320 px, max 8MB, PNG or JPG; GIFs not supported."
+    },
+    "coverPhoto": {
+      "width": 1584,
+      "height": 396,
+      "aspectRatio": "4:1",
+      "maxFileSizeMB": 8,
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "displayShape": "rectangle",
+      "notes": "Cover (background) image: 1584x396 recommended, JPG or PNG under 8MB."
+    },
+    "sources": [
+      "https://www.linkedin.com/help/linkedin/answer/a549049",
+      "https://www.linkedin.com/help/linkedin/answer/a568217"
+    ],
+    "confidence": "official",
+    "verified": "2026-11-17",
+    "export": {
+      "width": 400,
+      "height": 400,
+      "basis": "official",
+      "note": "Recommended upload size."
+    }
+  },
+  {
+    "slug": "x",
+    "name": "X (Twitter)",
+    "category": "social",
+    "profilePhoto": {
+      "width": 400,
+      "height": 400,
+      "aspectRatio": "1:1",
+      "maxFileSizeMB": 2,
+      "formats": [
+        "jpg",
+        "png",
+        "gif"
+      ],
+      "displayShape": "circle",
+      "notes": "Recommended 400x400; JPEG, GIF or PNG under 2MB."
+    },
+    "coverPhoto": {
+      "width": 1500,
+      "height": 500,
+      "aspectRatio": "3:1",
+      "displayShape": "rectangle",
+      "notes": "Header (banner) recommended 1500x500; X help does not state a header file-size limit on the cited pages."
+    },
+    "sources": [
+      "https://help.x.com/en/managing-your-account/common-issues-when-uploading-profile-photo",
+      "https://help.x.com/en/managing-your-account/how-to-customize-your-profile"
+    ],
+    "confidence": "official",
+    "verified": "2026-11-17",
+    "export": {
+      "width": 400,
+      "height": 400,
+      "basis": "official",
+      "note": "Recommended upload size."
+    }
+  },
+  {
+    "slug": "instagram",
+    "name": "Instagram",
+    "category": "social",
+    "profilePhoto": {
+      "width": 320,
+      "height": 320,
+      "aspectRatio": "1:1",
+      "displayShape": "circle",
+      "displaySizes": [
+        110
+      ],
+      "notes": "Instagram publishes no size; third-party guides report storage at 320x320 and display at ~110x110 in the app."
+    },
+    "sources": [
+      "https://help.instagram.com/557544397610546",
+      "https://blog.hootsuite.com/social-media-image-sizes-guide"
+    ],
+    "confidence": "community",
+    "verified": "2026-11-17",
+    "export": {
+      "width": 320,
+      "height": 320,
+      "basis": "community",
+      "note": "No official size; most-cited size from current guides."
+    }
+  },
+  {
+    "slug": "facebook",
+    "name": "Facebook",
+    "category": "social",
+    "profilePhoto": {
+      "width": 320,
+      "height": 320,
+      "aspectRatio": "1:1",
+      "minWidth": 180,
+      "displayShape": "circle",
+      "displaySizes": [
+        176,
+        196,
+        36
+      ],
+      "notes": "Profile picture must be at least 180px wide; Page profile pictures display at 176px (desktop)/196px (phone), cropped to a circle, 320x320 for best quality."
+    },
+    "coverPhoto": {
+      "width": 851,
+      "height": 315,
+      "minWidth": 400,
+      "minHeight": 150,
+      "displayShape": "rectangle",
+      "displaySizes": [
+        "820x312 (desktop)",
+        "640x360 (mobile)"
+      ],
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "notes": "Page cover loads fastest as sRGB JPG 851x315 under 100KB; PNG recommended for logos/text."
+    },
+    "sources": [
+      "https://www.facebook.com/help/timeline/cover",
+      "https://www.facebook.com/help/125379114252045",
+      "https://www.facebook.com/business/help/932174080274105"
+    ],
+    "confidence": "official",
+    "verified": "2026-11-17",
+    "export": {
+      "width": 320,
+      "height": 320,
+      "basis": "official",
+      "note": "Recommended upload size."
+    }
+  },
+  {
+    "slug": "tiktok",
+    "name": "TikTok",
+    "category": "video",
+    "profilePhoto": {
+      "width": 200,
+      "height": 200,
+      "aspectRatio": "1:1",
+      "minWidth": 20,
+      "minHeight": 20,
+      "displayShape": "circle",
+      "notes": "TikTok only states a 20x20 px minimum; 200x200 is the common third-party recommendation."
+    },
+    "sources": [
+      "https://support.tiktok.com/en/getting-started/setting-up-your-profile/adding-a-profile-photo-or-video",
+      "https://www.shopify.com/blog/tiktok-pfp"
+    ],
+    "confidence": "community",
+    "verified": "2026-11-17",
+    "export": {
+      "width": 200,
+      "height": 200,
+      "basis": "community",
+      "note": "No official size; most-cited size from current guides."
+    }
+  },
+  {
+    "slug": "youtube",
+    "name": "YouTube",
+    "category": "video",
+    "profilePhoto": {
+      "aspectRatio": "1:1",
+      "maxFileSizeMB": 15,
+      "formats": [
+        "jpg",
+        "gif",
+        "bmp",
+        "png"
+      ],
+      "displayShape": "circle",
+      "displaySizes": [
+        98
+      ],
+      "notes": "JPG, GIF, BMP or PNG (no animated GIFs), max 15MB, renders at 98x98; YouTube's current help gives no recommended upload size."
+    },
+    "coverPhoto": {
+      "width": 2560,
+      "height": 1440,
+      "aspectRatio": "16:9",
+      "minWidth": 2048,
+      "minHeight": 1152,
+      "maxFileSizeMB": 6,
+      "displayShape": "rectangle",
+      "notes": "Banner: min 2048x1152, recommended 2560x1440, text/logo safe area 1235x338 at minimum size, 6MB or smaller."
+    },
+    "sources": [
+      "https://support.google.com/youtube/answer/10456525?hl=en",
+      "https://support.google.com/youtube/answer/12950272?hl=en"
+    ],
+    "confidence": "official",
+    "verified": "2026-11-17",
+    "export": {
+      "width": 800,
+      "height": 800,
+      "basis": "narkis-pick",
+      "note": "YouTube gives no upload size, only the 98x98 render; 800x800 stays sharp on every screen."
+    }
+  },
+  {
+    "slug": "tinder",
+    "name": "Tinder",
+    "category": "dating",
+    "profilePhoto": {
+      "displayShape": "rounded-square",
+      "notes": "Tinder publishes no pixel spec for profile photos."
+    },
+    "datingPhotos": {
+      "maxPhotos": 9,
+      "notes": "Up to 9 profile photos per user reports and how-to guides; Tinder help (help.tinder.com) describes add/remove/rearrange but the count could not be confirmed on an official page."
+    },
+    "sources": [
+      "https://help.tinder.com/hc/en-us/articles/115003339043-How-do-I-edit-my-profile-",
+      "https://datingappworld.com/how-many-photos-should-you-have-on-tinder"
+    ],
+    "confidence": "community",
+    "verified": "2026-11-17",
+    "export": {
+      "width": 1080,
+      "height": 1350,
+      "basis": "narkis-pick",
+      "note": "Tinder publishes no pixel size; 1080x1350 (4:5 portrait) fills the card on modern phones."
+    }
+  },
+  {
+    "slug": "hinge",
+    "name": "Hinge",
+    "category": "dating",
+    "profilePhoto": {
+      "notes": "Hinge publishes no pixel spec for profile photos."
+    },
+    "datingPhotos": {
+      "minPhotos": 4,
+      "maxPhotos": 6,
+      "notes": "Members must have between four and six photos depending on local requirements, plus three prompt answers."
+    },
+    "sources": [
+      "https://help.hinge.co/hc/en-us/articles/360011053094-How-do-I-edit-my-profile"
+    ],
+    "confidence": "official",
+    "verified": "2026-11-17",
+    "export": {
+      "width": 1080,
+      "height": 1350,
+      "basis": "narkis-pick",
+      "note": "Hinge publishes no pixel size; 1080x1350 (4:5 portrait) fills the card on modern phones."
+    }
+  },
+  {
+    "slug": "bumble",
+    "name": "Bumble",
+    "category": "dating",
+    "profilePhoto": {
+      "width": 1024,
+      "height": 1024,
+      "aspectRatio": "1:1",
+      "maxFileSizeMB": 128,
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "notes": "JPG or PNG up to 128MB, ideally 1024x1024."
+    },
+    "datingPhotos": {
+      "recommendedWidth": 1024,
+      "recommendedHeight": 1024,
+      "aspectRatio": "1:1",
+      "maxPhotos": 6,
+      "notes": "Up to 6 photos and videos; Bumble says 4-6 work best."
+    },
+    "sources": [
+      "https://support.bumble.com/hc/en-us/articles/28523708029341-Uploading-profile-photos-and-videos"
+    ],
+    "confidence": "official",
+    "verified": "2026-11-17",
+    "export": {
+      "width": 1024,
+      "height": 1024,
+      "basis": "official",
+      "note": "Recommended upload size."
+    }
+  },
+  {
+    "slug": "slack",
+    "name": "Slack",
+    "category": "professional",
+    "profilePhoto": {
+      "width": 1024,
+      "height": 1024,
+      "aspectRatio": "1:1",
+      "minWidth": 512,
+      "minHeight": 512,
+      "maxWidth": 1024,
+      "maxHeight": 1024,
+      "formats": [
+        "jpg",
+        "png",
+        "gif"
+      ],
+      "displayShape": "rounded-square",
+      "notes": "Minimum 512x512, no larger than 1024x1024; API accepts JPEG, GIF or PNG."
+    },
+    "sources": [
+      "https://slack.com/help/articles/115005506003-Upload-a-profile-photo",
+      "https://api.slack.com/methods/users.setPhoto"
+    ],
+    "confidence": "official",
+    "verified": "2026-11-17",
+    "export": {
+      "width": 1024,
+      "height": 1024,
+      "basis": "official",
+      "note": "Recommended upload size."
+    }
+  },
+  {
+    "slug": "microsoft-teams",
+    "name": "Microsoft Teams",
+    "category": "professional",
+    "profilePhoto": {
+      "width": 648,
+      "height": 648,
+      "aspectRatio": "1:1",
+      "maxWidth": 648,
+      "maxHeight": 648,
+      "maxFileSizeMB": 4,
+      "displayShape": "circle",
+      "displaySizes": [
+        64,
+        96
+      ],
+      "notes": "Exchange/M365 photos max 648x648 (recommended, ~240KB JPEG); 4MB upload limit comes from Microsoft Q&A answers, not product docs."
+    },
+    "sources": [
+      "https://learn.microsoft.com/en-us/skypeforbusiness/deploy/integrate-with-exchange-server/high-resolution-photos",
+      "https://learn.microsoft.com/en-my/answers/questions/1613853/how-to-fix-microsoft-teams-profile-photo-being-blu"
+    ],
+    "confidence": "community",
+    "verified": "2026-11-17",
+    "export": {
+      "width": 648,
+      "height": 648,
+      "basis": "community",
+      "note": "No official size; most-cited size from current guides."
+    }
+  },
+  {
+    "slug": "zoom",
+    "name": "Zoom",
+    "category": "professional",
+    "profilePhoto": {
+      "aspectRatio": "1:1",
+      "maxFileSizeMB": 10,
+      "formats": [
+        "jpg",
+        "png",
+        "gif"
+      ],
+      "displayShape": "circle",
+      "notes": "JPG/JPEG, GIF or PNG; limit raised from 2MB to 10MB per web release notes (2026). No pixel size published."
+    },
+    "sources": [
+      "https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0064565",
+      "https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0060437"
+    ],
+    "confidence": "official",
+    "verified": "2026-11-17",
+    "export": {
+      "width": 800,
+      "height": 800,
+      "basis": "narkis-pick",
+      "note": "Zoom gives no pixel size; a square 800x800 stays sharp in the circle."
+    }
+  },
+  {
+    "slug": "gmail",
+    "name": "Google Account (Gmail)",
+    "category": "professional",
+    "profilePhoto": {
+      "aspectRatio": "1:1",
+      "maxFileSizeMB": 5,
+      "formats": [
+        "jpg",
+        "png"
+      ],
+      "displayShape": "circle",
+      "notes": "Workspace admin docs: JPEG or PNG, max 5MB, max 20 megapixels, auto-scaled; user crop tool is square."
+    },
+    "sources": [
+      "https://support.google.com/a/answer/6371005",
+      "https://support.google.com/accounts/answer/27442?co=GENIE.Platform%3DDesktop&hl=en"
+    ],
+    "confidence": "official",
+    "verified": "2026-11-17",
+    "export": {
+      "width": 800,
+      "height": 800,
+      "basis": "narkis-pick",
+      "note": "Google gives no pixel size (max 20 MP); a square 800x800 stays sharp in the circle."
+    }
+  },
+  {
+    "slug": "github",
+    "name": "GitHub",
+    "category": "developer",
+    "profilePhoto": {
+      "width": 500,
+      "height": 500,
+      "aspectRatio": "1:1",
+      "maxWidth": 3000,
+      "maxHeight": 3000,
+      "maxFileSizeMB": 1,
+      "formats": [
+        "png",
+        "jpg",
+        "gif"
+      ],
+      "displayShape": "circle",
+      "notes": "PNG, JPG or GIF under 1MB and smaller than 3000x3000; about 500x500 recommended."
+    },
+    "sources": [
+      "https://docs.github.com/en/account-and-profile/reference/profile-reference"
+    ],
+    "confidence": "official",
+    "verified": "2026-11-17",
+    "export": {
+      "width": 500,
+      "height": 500,
+      "basis": "official",
+      "note": "Recommended upload size."
+    }
+  },
+  {
+    "slug": "discord",
+    "name": "Discord",
+    "category": "messaging",
+    "profilePhoto": {
+      "aspectRatio": "1:1",
+      "minWidth": 200,
+      "minHeight": 200,
+      "maxFileSizeMB": 10,
+      "formats": [
+        "png",
+        "jpg",
+        "gif"
+      ],
+      "displayShape": "circle",
+      "notes": "Discord blog: ~200x200 minimum, under 10MB; animated GIF avatars require Nitro."
+    },
+    "coverPhoto": {
+      "width": 680,
+      "height": 240,
+      "aspectRatio": "17:6",
+      "minWidth": 680,
+      "minHeight": 240,
+      "maxFileSizeMB": 10,
+      "displayShape": "rectangle",
+      "notes": "Profile banner is Nitro-only; 680x240 minimum and under 10MB as quoted from Discord's Custom Profiles page by third parties (page blocked to automated fetch)."
+    },
+    "sources": [
+      "https://discord.com/blog/discord-profile-tips-from-design-professionals",
+      "https://support.discord.com/hc/en-us/articles/4403147417623-Custom-Profiles",
+      "https://filewhisk.com/discord-banner-size/"
+    ],
+    "confidence": "community",
+    "verified": "2026-11-17",
+    "export": {
+      "width": 512,
+      "height": 512,
+      "basis": "narkis-pick",
+      "note": "Discord gives a ~200x200 minimum; 512x512 stays sharp on high-DPI screens."
+    }
+  },
+  {
+    "slug": "whatsapp",
+    "name": "WhatsApp",
+    "category": "messaging",
+    "profilePhoto": {
+      "width": 640,
+      "height": 640,
+      "aspectRatio": "1:1",
+      "displayShape": "circle",
+      "notes": "No size published for consumer app; WhatsApp Business API docs crop to a square with max edge 640px and max 5MB."
+    },
+    "sources": [
+      "https://developers.facebook.com/docs/whatsapp/on-premises/reference/settings/profile/photo/",
+      "https://moda.app/resources/sizes/whatsapp-profile-picture"
+    ],
+    "confidence": "community",
+    "verified": "2026-11-17",
+    "export": {
+      "width": 640,
+      "height": 640,
+      "basis": "community",
+      "note": "No official size; most-cited size from current guides."
+    }
+  },
+  {
+    "slug": "telegram",
+    "name": "Telegram",
+    "category": "messaging",
+    "profilePhoto": {
+      "width": 640,
+      "height": 640,
+      "aspectRatio": "1:1",
+      "displayShape": "circle",
+      "displaySizes": [
+        160
+      ],
+      "notes": "No official size; third parties report Telegram stores 640x640 and 160x160 copies."
+    },
+    "sources": [
+      "https://propicz.com/telegram-profile-picture-maker/",
+      "https://pixohub.com/resize/telegram-profile"
+    ],
+    "confidence": "community",
+    "verified": "2026-11-17",
+    "export": {
+      "width": 640,
+      "height": 640,
+      "basis": "community",
+      "note": "No official size; most-cited size from current guides."
+    }
+  },
+  {
+    "slug": "threads",
+    "name": "Threads",
+    "category": "social",
+    "profilePhoto": {
+      "width": 320,
+      "height": 320,
+      "aspectRatio": "1:1",
+      "displayShape": "circle",
+      "notes": "No official size; Buffer lists 320x320."
+    },
+    "sources": [
+      "https://help.instagram.com/759628745637994",
+      "https://buffer.com/resources/social-media-image-sizes"
+    ],
+    "confidence": "community",
+    "verified": "2026-11-17",
+    "export": {
+      "width": 320,
+      "height": 320,
+      "basis": "community",
+      "note": "No official size; most-cited size from current guides."
+    }
+  },
+  {
+    "slug": "pinterest",
+    "name": "Pinterest",
+    "category": "social",
+    "profilePhoto": {
+      "width": 280,
+      "height": 280,
+      "aspectRatio": "1:1",
+      "displayShape": "circle",
+      "notes": "Pinterest publishes no profile photo size; guides cite 280x280 (Canva lists 165x165)."
+    },
+    "coverPhoto": {
+      "width": 800,
+      "height": 450,
+      "aspectRatio": "16:9",
+      "minWidth": 800,
+      "minHeight": 450,
+      "displayShape": "rectangle",
+      "notes": "Business accounts only; must be at least 800x450, 16:9 horizontal recommended."
+    },
+    "sources": [
+      "https://help.pinterest.com/en/article/edit-your-profile",
+      "https://help.pinterest.com/en/business/article/personalize-your-profile",
+      "https://linearity.io/blog/pinterest-size-guide",
+      "https://canva.com/sizes/pinterest"
+    ],
+    "confidence": "community",
+    "verified": "2026-11-17",
+    "export": {
+      "width": 280,
+      "height": 280,
+      "basis": "community",
+      "note": "No official size; most-cited size from current guides."
+    }
+  },
+  {
+    "slug": "reddit",
+    "name": "Reddit",
+    "category": "social",
+    "profilePhoto": {
+      "width": 256,
+      "height": 256,
+      "aspectRatio": "1:1",
+      "minWidth": 256,
+      "minHeight": 256,
+      "formats": [
+        "png",
+        "jpg"
+      ],
+      "displayShape": "circle",
+      "notes": "Minimum recommended avatar size 256x256; .png or .jpg upload."
+    },
+    "coverPhoto": {
+      "width": 1920,
+      "height": 384,
+      "aspectRatio": "5:1",
+      "displayShape": "rectangle",
+      "notes": "Profile banner 1920x384 is a third-party figure; Reddit help gives no profile banner size."
+    },
+    "sources": [
+      "https://reddithelp.com/en/categories/using-reddit/profiles/how-update-your-profile-picture",
+      "https://business.reddithelp.com/en/categories/getting-started/create-a-reddit-ads-account",
+      "https://allplatforms.io/reddit"
+    ],
+    "confidence": "community",
+    "verified": "2026-11-17",
+    "export": {
+      "width": 256,
+      "height": 256,
+      "basis": "community",
+      "note": "No official size; most-cited size from current guides."
+    }
+  },
+  {
+    "slug": "passport-us",
+    "name": "US Passport",
+    "category": "passport",
+    "passport": {
+      "widthMM": 51,
+      "heightMM": 51,
+      "headHeightMM": "25-35 mm (1 to 1 3/8 in), chin to top of head",
+      "background": "white or off-white",
+      "glasses": "not allowed (remove glasses)",
+      "smile": "neutral expression, mouth closed (online renewal also allows a natural smile without teeth)",
+      "maxAgeMonths": 6,
+      "notes": "Print 2x2 in. Online renewal upload: JPG, PNG, HEIC or HEIF, 54KB-10MB; no pixel dimensions published."
+    },
+    "sources": [
+      "https://travel.state.gov/en/passports/apply/help/photos.html",
+      "https://travel.state.gov/content/travel/en/passports/how-apply/online-renewal-photo.html"
+    ],
+    "confidence": "official",
+    "verified": "2026-11-17",
+    "export": {
+      "width": 600,
+      "height": 600,
+      "basis": "print-300dpi",
+      "note": "2x2 in (51x51 mm) printed at 300 dpi."
+    }
+  },
+  {
+    "slug": "passport-uk",
+    "name": "UK Passport",
+    "category": "passport",
+    "passport": {
+      "widthMM": 35,
+      "heightMM": 45,
+      "digitalWidthPx": 600,
+      "digitalHeightPx": 750,
+      "headHeightMM": "29-34 mm chin to crown (recommended)",
+      "background": "plain light-coloured",
+      "glasses": "not allowed unless you have to; never sunglasses or tinted",
+      "smile": "neutral expression, mouth closed",
+      "maxAgeMonths": 1,
+      "notes": "Digital: at least 600x750 px, 50KB-10MB. Photo must be taken in the last month."
+    },
+    "sources": [
+      "https://www.gov.uk/photos-for-passports",
+      "https://www.gov.uk/photos-for-passports/photo-requirements",
+      "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/303780/Photoguidance_v7.pdf"
+    ],
+    "confidence": "official",
+    "verified": "2026-11-17",
+    "export": {
+      "width": 600,
+      "height": 750,
+      "basis": "official",
+      "note": "Official digital photo size."
+    }
+  },
+  {
+    "slug": "passport-schengen",
+    "name": "EU / Schengen Passport (Germany)",
+    "category": "passport",
+    "passport": {
+      "widthMM": 35,
+      "heightMM": 45,
+      "headHeightMM": "32-36 mm chin to hairline (22-36 mm for children under 10); face 70-80% of photo per EU ICAO guidance",
+      "background": "plain, uniform, neutral light-coloured",
+      "glasses": "allowed if frames do not cover the eyes, no reflections or tinted lenses",
+      "smile": "neutral expression, mouth closed",
+      "maxAgeMonths": 6,
+      "notes": "Based on German biometric criteria and EU Home Affairs ICAO guidance; other member states may differ."
+    },
+    "sources": [
+      "https://spanien.diplo.de/es-de/service/2591930-2591930",
+      "https://bmi.bund.de/SharedDocs/downloads/DE/veroeffentlichungen/themen/moderne-verwaltung/ausweise/passbild-schablone-erwachsene.pdf?__blob=publicationFile&v=4",
+      "https://home-affairs.ec.europa.eu/document/download/5bb16566-c8c2-4afb-b038-530f488cb72a_en?filename=icao_photograph_guidelines_en.pdf"
+    ],
+    "confidence": "official",
+    "verified": "2026-11-17",
+    "export": {
+      "width": 413,
+      "height": 531,
+      "basis": "print-300dpi",
+      "note": "35x45 mm printed at 300 dpi."
+    }
+  },
+  {
+    "slug": "passport-canada",
+    "name": "Canadian Passport",
+    "category": "passport",
+    "passport": {
+      "widthMM": 50,
+      "heightMM": 70,
+      "digitalWidthPx": 1200,
+      "digitalHeightPx": 1800,
+      "headHeightMM": "31-36 mm chin to crown (online: 45-50% of photo height)",
+      "background": "plain white or light-coloured",
+      "glasses": "allowed if eyes clearly visible and no glare; no sunglasses or tinted lenses",
+      "smile": "neutral expression, mouth closed, not smiling",
+      "maxAgeMonths": 6,
+      "notes": "Online renewal digital photo: 3:2 portrait, 1200x1800 min to 3000x4500 max px, 200KB-5MB."
+    },
+    "sources": [
+      "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-passports/photos.html"
+    ],
+    "confidence": "official",
+    "verified": "2026-11-17",
+    "export": {
+      "width": 1200,
+      "height": 1800,
+      "basis": "official",
+      "note": "Official digital photo size."
+    }
+  },
+  {
+    "slug": "passport-india",
+    "name": "Indian Passport",
+    "category": "passport",
+    "passport": {
+      "widthMM": 35,
+      "heightMM": 45,
+      "digitalWidthPx": 630,
+      "digitalHeightPx": 810,
+      "headHeightMM": "face takes up 80-85% of the photograph",
+      "background": "white",
+      "glasses": "take off to avoid reflections",
+      "smile": "natural expression, mouth not open",
+      "notes": "Printed photos (where required) 4.5 x 3.5 cm on white background; ICAO digital spec 630x810 px. No file-size limit or max age stated on cited pages."
+    },
+    "sources": [
+      "https://mportal.passportindia.gov.in/pdf/Guidelines_for_ICAO_Compliant_Photographs_for_Passport_Applications.pdf",
+      "https://www.passportindia.gov.in/psp/FaqApplicationForm"
+    ],
+    "confidence": "official",
+    "verified": "2026-11-17",
+    "export": {
+      "width": 630,
+      "height": 810,
+      "basis": "official",
+      "note": "Official digital photo size."
+    }
+  },
+  {
+    "slug": "passport-china",
+    "name": "Chinese Passport",
+    "category": "passport",
+    "passport": {
+      "widthMM": 33,
+      "heightMM": 48,
+      "headHeightMM": "28-33 mm chin to top of head; head width 15-22 mm; 3-5 mm top margin; at least 7 mm below chin",
+      "background": "white",
+      "glasses": "allowed with untinted lenses and no glare/frames obscuring eyes",
+      "smile": "natural expression, eyes open, lips closed",
+      "maxAgeMonths": 6,
+      "notes": "Per Chinese embassy/consulate specs; digital photos are uploaded via the China Consular app (pixel spec not published on cited pages)."
+    },
+    "sources": [
+      "https://mv.china-embassy.gov.cn/lsfw/lszj/hzlxz/202603/t20260316_11875482.htm",
+      "https://chicago.china-consulate.gov.cn/chn/lsfw/zj/hzlxz/202605/t20260501_11903971.htm"
+    ],
+    "confidence": "official",
+    "verified": "2026-11-17",
+    "export": {
+      "width": 390,
+      "height": 567,
+      "basis": "print-300dpi",
+      "note": "33x48 mm printed at 300 dpi."
+    }
+  },
+  {
+    "slug": "passport-australia",
+    "name": "Australian Passport",
+    "category": "passport",
+    "passport": {
+      "widthMM": 35,
+      "heightMM": 45,
+      "headHeightMM": "32-36 mm chin to crown",
+      "background": "plain white or light grey",
+      "glasses": "not allowed unless medically required",
+      "smile": "neutral expression",
+      "notes": "Accepted range is 35-40 mm wide x 45-50 mm high (35x45 shown). Glossy professional prints on 200gsm+ paper."
+    },
+    "sources": [
+      "https://passports.gov.au/help/passport-photos",
+      "https://passports.gov.au/sites/default/files/documents/2026-06/Camera%20operator%20guidelines_0.pdf"
+    ],
+    "confidence": "official",
+    "verified": "2026-11-17",
+    "export": {
+      "width": 413,
+      "height": 531,
+      "basis": "print-300dpi",
+      "note": "35x45 mm printed at 300 dpi."
+    }
+  },
+  {
+    "slug": "visa-us",
+    "name": "US Visa (DS-160)",
+    "category": "passport",
+    "passport": {
+      "widthMM": 51,
+      "heightMM": 51,
+      "digitalWidthPx": 600,
+      "digitalHeightPx": 600,
+      "headHeightMM": "25-35 mm print; 50-69% of image height for digital",
+      "background": "plain white or off-white",
+      "glasses": "not allowed (medical exceptions only)",
+      "smile": "neutral expression",
+      "maxAgeMonths": 6,
+      "notes": "Digital: square JPEG, 600x600 min to 1200x1200 max px, 24-bit sRGB, max 240 kB."
+    },
+    "sources": [
+      "https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/photos/digital-image-requirements.html",
+      "https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/photos.html",
+      "https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/photos/frequently-asked-questions.html"
+    ],
+    "confidence": "official",
+    "verified": "2026-11-17",
+    "export": {
+      "width": 600,
+      "height": 600,
+      "basis": "official",
+      "note": "Official digital photo size."
+    }
+  }
+]
